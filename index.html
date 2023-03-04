@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Sign-in & Sign-up</title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="signin-signup">
+                <form action="/" class="sign-in-form form">
+                    <h2 class="title">Sign in</h2>
+                    <div class="input-field">
+                        <i class='bx bxs-user'></i>
+                        <input type="text" placeholder="Username" class="username"/>
+                        <div class="error"></div>
+                    </div>
+
+                    <div class="input-field">
+                        <i class='bx bxs-lock-alt'></i>
+                        <input type="password" placeholder="Password" class="password"/>
+                        <div class="error"></div>
+                    </div>
+
+                    <button type="submit" class="btn">Log in</button>
+                    <p class="social-text">Or Sign in with social platform</p>
+                    <div class="social-media">
+                        <a href="#" class="social-icon">
+                            <i class='bx bxl-google' ></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class='bx bxl-facebook-circle' ></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class='bx bxl-twitter' ></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class='bx bxl-linkedin' ></i>
+                        </a>
+                    </div>
+                    <p class="account-text">Don't have an account? <a href="#" id="sign-up-btn1">Sign up</a></p>
+                </form>
+
+                <form action="/" class="sign-up-form form">
+                    <h2 class="title">Sign up</h2>
+                    <div class="input-field">
+                        <i class='bx bxs-user'></i>
+                        <input type="text" placeholder="Username" class="username"/>
+                        <div class="error"></div>
+                    </div>
+
+                    <div class="input-field">
+                        <i class='bx bx-envelope' ></i>
+                        <input type="email" placeholder="Email" class="email"/>
+                        <div class="error"></div>
+                    </div>
+
+                    <div class="input-field">
+                        <i class='bx bxs-lock-alt'></i>
+                        <input type="password" placeholder="Password" class="password"/>
+                        <div class="error"></div>
+                    </div>
+
+                    <div class="input-field">
+                        <i class='bx bxs-lock-alt'></i>
+                        <input type="password" placeholder="Confirm Password" class="password2"/>
+                        <div class="error"></div>
+                    </div>
+
+                    <button type="submit" class="btn">Sign up</button>
+                    <p class="social-text">Or Sign up with social platform</p>
+                    <div class="social-media">
+                        <a href="#" class="social-icon">
+                            <i class='bx bxl-google' ></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class='bx bxl-facebook-circle' ></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class='bx bxl-twitter' ></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class='bx bxl-linkedin' ></i>
+                        </a>
+                    </div>
+                    <p class="account-text">Already have an account? <a href="#" id="sign-in-btn1">Sign in</a></p>
+                </form>
+            </div>
+
+            <div class="panels-container">
+                <div class="panel left-panel">
+                    <div class="content">
+                        <h3>Member of Brand?</h3>
+                        <p>Some para here.</p>
+                        <button class="btn" id="sign-in-btn">Sign in</button>
+                    </div>
+                    <img src="images/login.svg" alt="" class="image">                    
+                </div>
+
+                <div class="panel right-panel">
+                    <div class="content">
+                        <h3>New to Brand</h3>
+                        <p>Some para here</p>
+                        <button class="btn" id="sign-up-btn">Sign up</button>
+                    </div>
+                    <img src="images/register.svg"  alt="" class="image">
+                </div>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
